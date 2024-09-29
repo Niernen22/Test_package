@@ -1,6 +1,10 @@
 Runs and logs (output and error messages) a test's steps based on the test's ID (given as parameter).
 
---test plan
+tables:
+TESTS -- TEST_RUN_LOG
+TEST_STEPS -- STEP_RUN_LOG
+
+how to call it in oracle db:
 DECLARE
   l_run_id NUMBER;
 BEGIN
