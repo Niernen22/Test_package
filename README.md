@@ -1,3 +1,5 @@
+Runs and logs (output and error messages) a test's steps based on the test's ID (given as parameter).
+
 --test plan
 DECLARE
   l_run_id NUMBER;
